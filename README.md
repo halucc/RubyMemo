@@ -17,7 +17,7 @@ Study Ruby
 for year in 1900..2020 do
 
   # 変数 / 判定用
-  year4 = (year % 4).zero?
+  year4 = (year % 4).zero? # 多言語のように「== 0」でも記述できるが、Rubyでは「.zero?」推奨
   year100no = (year % 100) != 0
   year400 = (year % 400).zero?
 
